@@ -1,0 +1,23 @@
+@media (color-gamut: srgb) {
+	/* safe to use srgb colors */
+	.background-gradient {
+		background-image: radial-gradient(
+			farthest-corner circle at 50% 50%,
+			#c842dd 15% 15%,
+			60%,
+			#5b1f65 100%
+		);
+	}
+}
+
+@media (color-gamut: p3) {
+	/* safe to use p3 colors */
+	.background-gradient {
+		background-image: radial-gradient(
+			farthest-corner circle at 50% 50% in oklch,
+			#c842dd 15% 15%,
+			60%,
+			#5b1f65 100%
+		);
+	}
+}
