@@ -134,5 +134,16 @@
     "https://deno.land/x/zod@v3.21.4/mod.ts": "64e55237cb4410e17d968cd08975566059f27638ebb0b86048031b987ba251c4",
     "https://deno.land/x/zod@v3.21.4/types.ts": "b5d061babea250de14fc63764df5b3afa24f2b088a1d797fc060ba49a0ddff28",
     "https://deno.land/x/zod_semver@1.0.2/mod.ts": "e0c5efb5e30666686249f85146e28f5f5ecec1a834af1e3037609182ff5564ee"
+  },
+  "npm": {
+    "specifiers": {
+      "prettier@latest": "prettier@3.0.0"
+    },
+    "packages": {
+      "prettier@3.0.0": {
+        "integrity": "sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==",
+        "dependencies": {}
+      }
+    }
   }
 }

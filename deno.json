@@ -2,7 +2,8 @@
   "tasks": {
     "start": "deno run -A --watch=static/,routes/ dev.ts",
     "fresh:update": "deno run -A -r https://fresh.deno.dev/update .",
-    "download-openprops": "deno run --allow-net --allow-write --allow-read https://deno.land/x/fresh_openprops/download-openprops.ts 1.5.8"
+    "download-openprops": "deno run --allow-net --allow-write --allow-read https://deno.land/x/fresh_openprops/download-openprops.ts 1.5.8",
+    "install-prettier": "deno cache --reload  --node-modules-dir npm:prettier@latest"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
