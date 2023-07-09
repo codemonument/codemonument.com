@@ -19,7 +19,7 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.190.0/",
-    "fresh-openprops": "https://deno.land/x/fresh_openprops@1.0.1/mod.ts"
+    "fresh-openprops": "https://deno.land/x/fresh_openprops@1.0.3/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
