@@ -19,7 +19,10 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.190.0/",
-    "fresh-openprops": "https://deno.land/x/fresh_openprops@1.0.3/mod.ts"
+    "fresh-openprops": "https://deno.land/x/fresh_openprops@1.0.3/mod.ts",
+    "iconify-icon": "https://esm.sh/*iconify-icon@1.0.8",
+    "@iconify-icon/react": "https://esm.sh/*@iconify-icon/react@1.0.8",
+    "@iconify/react": "https://esm.sh/*@iconify/react@4.1.1"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
